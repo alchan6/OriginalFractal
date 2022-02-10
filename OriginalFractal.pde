@@ -10,8 +10,7 @@ public void draw(){
 public void myFractal(int x, int y, int rad){
   ellipse(x,y,rad,rad);
   if(rad>5){
-    stroke(255,0,0);
-    fill(98,215,69);
+    stroke(135,206,235);
     myFractal(x+rad/4,y,rad/2);
     myFractal(x-rad/4,y,rad/2);
     myFractal(x,y+rad/4,rad/2);
