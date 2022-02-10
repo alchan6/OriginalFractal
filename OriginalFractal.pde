@@ -9,7 +9,7 @@ public void draw(){
 
 public void myFractal(int x, int y, int rad){
   circle(x,y,rad);
-  if(rad>10){
+  if(rad>1){
     stroke(255,0,0);
     fill(98,215,69);
     myFractal(x+rad/4,y,rad/2);
