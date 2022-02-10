@@ -8,7 +8,7 @@ public void draw(){
 }
 
 public void myFractal(int x, int y, int rad){
-  circle(x,y,rad);
+  ellipse(x,y,rad,rad);
   if(rad>1){
     stroke(255,0,0);
     fill(98,215,69);
