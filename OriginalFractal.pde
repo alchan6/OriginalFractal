@@ -14,10 +14,6 @@ public void myFractal(int x, int y, int rad){
     fill(98,215,69);
     myFractal(x+rad/4,y,rad/2);
     myFractal(x-rad/4,y,rad/2);
-    myFractal(x+rad/8,y-rad/8,rad/2);
-    myFractal(x-rad/8,y-rad/8,rad/2);
-    myFractal(x-rad/8,y+rad/8,rad/2);
-    myFractal(x+rad/8,y+rad/8,rad/2);
     myFractal(x,y+rad/4,rad/2);
     myFractal(x,y-rad/4,rad/2);
 
